@@ -3,7 +3,7 @@ package com.ynov.kotlin.rickmorty.presentation
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.ynov.kotlin.rickmorty.R
-import java.util.*
+import com.ynov.kotlin.rickmorty.presentation.list.view.fragment.ListFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -12,5 +12,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.main_activity_fragment_container, ListFragment())
+            .commit()
     }
 }
