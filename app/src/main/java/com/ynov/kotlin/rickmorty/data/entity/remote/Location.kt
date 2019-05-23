@@ -1,4 +1,4 @@
-package com.ynov.kotlin.rickmorty.data.Entity.Remote
+package com.ynov.kotlin.rickmorty.data.entity.remote
 
 data class Location (
     val name: String,

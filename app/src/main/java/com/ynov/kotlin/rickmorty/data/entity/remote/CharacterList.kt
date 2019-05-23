@@ -1,4 +1,4 @@
-package com.ynov.kotlin.rickmorty.data.Entity.Remote
+package com.ynov.kotlin.rickmorty.data.entity.remote
 
 import com.google.gson.annotations.SerializedName
 

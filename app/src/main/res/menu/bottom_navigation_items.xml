@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <item android:id="@+id/bottom_menu_action_characters_list" android:icon="@drawable/ic_group" android:title="Characters" />
+    <item android:id="@+id/bottom_menu_action_episodes_list" android:icon="@drawable/ic_movie" android:title="Episodes" />
+</menu>
